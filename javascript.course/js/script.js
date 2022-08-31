@@ -110,6 +110,35 @@ var nilai = prompt("Inpitkan Nilai akhir :");
     document.write(`<p>Grade anda : ${grade}</p>`);
 */
 
+// pakaii kurung kurawal 
+/*
+var nilai = prompt("Inputkan nilai akhir:");
+    var grade = "";
+
+    if (nilai >= 90){
+        grade = "A"
+    } else if(nilai >= 80) {
+        grade = "B+"
+    } else if(nilai >= 70) {
+        grade = "B"
+    } else if(nilai >= 60) {
+        grade = "C+"
+    } else if(nilai >= 50) {
+        grade = "C"
+    } else if(nilai >= 40) {
+        grade = "D"
+    } else if(nilai >= 30) {
+         grade = "E"
+    } else { 
+        grade = "F";
+    }
+    document.write(`<p>Grade anda: ${grade}</p>`);
+
+    */
+
+
+// STUDY KASUS Sendiri IF ELSE IF
+/*
 var jumlahLogo = prompt("Masukan jumlah order :");
 var logo = "";
 
@@ -123,3 +152,48 @@ document.write(`<p>selamat anda mendapatkan : ${logo}</p>`);
 } else{
     document.write(`<p>Terimakasih harga anda : ${logo}</p>`);
 }
+*/
+
+/*
+// SWITCH CASE
+var jawab = prompt("Kamu beruntung! Silahkan pilih hadiah dari 1-5");
+var hadiah = "";
+
+switch(jawab){
+    case "1" :
+        hadiah = "Susu kaleng";
+        break;
+
+    case "2" :
+        hadiah = "Teh Botol";
+        break;
+    case "3" :
+        hadiah = "Ciki Taro";
+        break;
+    case "4" :
+        hadiah ="Rp. 100.000";
+        break;
+    case "5" :
+        hadiah = "kuaci";
+        break;
+    default :
+        document.write("<p>Opps! anda salah pilih</p>");
+
+}
+if (hadiah == ""){
+    document.write("<p>Kamu gagal mendapatkan hadiah!</p>");
+} else {
+    document.write(`<h2>Selamat kamu mendapatkan ${hadiah} </h2>`);
+}
+*/
+
+
+// PERULANGAN TERNARY/Ternary
+/*
+var jwb = prompt("Apakah Jakarta ibu kota indonesia? Iya/Tidak");
+
+var jawaban = (jwb.toUpperCase() == "IYA") ? "Benar": "Salah";
+
+document.write(`Jawaban anda: <b>${jawaban}</b>`);
+
+*/
