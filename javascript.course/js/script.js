@@ -197,3 +197,12 @@ var jawaban = (jwb.toUpperCase() == "IYA") ? "Benar": "Salah";
 document.write(`Jawaban anda: <b>${jawaban}</b>`);
 
 */
+
+
+// function setName(){
+//     var txtName = document.getElementById('txtNameFast');
+//     var txtName = document.getElementById('txtNameLast');
+//     document.getElementById('nameFast').innerHTML = txtNameFast.value;
+//     document.getElementById('nameLast').innerHTML = txtNameLast.value;
+// }
+
